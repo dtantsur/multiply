@@ -1,0 +1,7 @@
+apiVersion: mathops.owlet.today/v1alpha1
+kind: Multiply
+metadata:
+  name: multiply-sample
+spec:
+  operand1: 2
+  operand2: 3

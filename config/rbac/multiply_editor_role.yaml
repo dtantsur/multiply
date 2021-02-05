@@ -1,0 +1,24 @@
+# permissions for end users to edit multiplies.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: multiply-editor-role
+rules:
+- apiGroups:
+  - mathops.owlet.today
+  resources:
+  - multiplies
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - mathops.owlet.today
+  resources:
+  - multiplies/status
+  verbs:
+  - get

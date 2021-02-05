@@ -1,0 +1,7 @@
+domain: owlet.today
+repo: github.com/dtantsur/multiply
+resources:
+- group: mathops
+  kind: Multiply
+  version: v1alpha1
+version: "2"

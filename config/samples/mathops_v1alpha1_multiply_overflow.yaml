@@ -1,0 +1,7 @@
+apiVersion: mathops.owlet.today/v1alpha1
+kind: Multiply
+metadata:
+  name: multiply-sample-with-overflow
+spec:
+  operand1: 1073741824
+  operand2: 1048576
